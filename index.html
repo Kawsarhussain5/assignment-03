@@ -4,10 +4,178 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--tailwind link-->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!--font awsome-->
+    <script src="https://kit.fontawesome.com/00998b675a.js" crossorigin="anonymous"></script>
+    <!--daisyUi-->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
 </head>
 <body>
-    <h1>Hello....</h1>
+    <section class="">
+        <header class="max-w-7xl mx-auto ">
+         <nav class="py-5 ">
+           <div class="navbar ">
+             <div class="navbar-start space-x-2">
+               <a class="" href="">
+                <img src="/c2-assets/logo-header.png" alt="">
+               </a>
+             </div>
+             <div class="navbar-center hidden lg:flex">
+               <ul class="menu menu-horizontal px-1 text-gray-500">
+                 <li class="font-extrabold text-black"><a href="">Home</a></li>
+                 <li><a href=""> Services</a></li>
+                 <li><a href="">Portfolio</a></li>
+                 <li><a href="">Portfolio</a></li>
+                 <li><a href="">Contact Us</a></li>
+               </ul>
+             </div>
+             <div class=" navbar-end gap-7 hidden lg:flex">
+               <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+               <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+               <button class="btn btn-outline btn-primary">Login</button>
+               <a class="btn  bg-[#abef5f] text-black rounded-lg px-5 text-xl font-bold border-none">Register</a>
+             </div>
+             <li class="navbar-end lg:hidden"><i class="fa-solid fa-bars text-2xl"></i></li>
+           </div>
+         </nav>
+       
+        <div class="container py-28">
+         <!--banner section -->
+         
+         <!--banner heading-->
+         <div class="space-y-7 flex justify-center items-center flex-col">
+           <h1 class="text-6xl w-3/4 font-bold text-center mx-auto ">Freshness You Can
+            Count On, Prices You’ll Love!</h1>
+           <p class="text-lg font-medium text-gray-500 w-3/4 text-center mx-auto">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+          <div class="flex justify-center space-y-7 px-6">
+           <!---banner image-->
+           <img src="/c2-assets/hero-vegetables.png" alt="">
+         </div>
+         </div>
+        </div>
+        </header>
+       </section>
+    <main>
+        <!--Services section-->
+        <section>
+            <h1>Services</h1>
 
-    <h3>fjkdfgjkv</h3>
+            <div class="lg:flex justify-center items-center gap-48">
+                <div class="card bg-base-100 w-96 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="/c2-assets/service.png"
+                        alt="Shoes"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">24/7 Services </h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                  </div>
+
+
+                  <div class="card bg-base-100 w-96 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="/c2-assets/service.png"
+                        alt="Shoes"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">24/7 Services </h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                  </div>
+
+
+
+                  <div class="card bg-base-100 w-96 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="/c2-assets/service.png"
+                        alt="Shoes"
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">24/7 Services </h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+
+        <!--Arrival & Offers-->
+        <section>
+            <div class="flex w-full flex-col lg:flex-row">
+                <div class="card bg-base-300 rounded-box grid h-32 flex-grow place-items-center">content</div>
+                <div class="divider lg:divider-horizontal">OR</div>
+                <div class="card bg-base-300 rounded-box grid h-32 flex-grow place-items-center">content</div>
+              </div>
+        </section>
+
+
+
+        <!--Get Grocery News!-->
+        <section>
+            <div class="hero bg-base-200 min-h-screen">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+                    class="max-w-sm rounded-lg shadow-2xl" />
+                  <div>
+                    <h1 class="text-5xl font-bold">Box Office News!</h1>
+                    <p class="py-6">
+                      Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                      quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    </p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!--footer section-->
+        <footer>
+            <footer class="footer bg-base-200 text-base-content p-10">
+                <aside>
+                  <img src="/c2-assets/logo-header.png" alt="">
+                  <p>
+                    ACME Industries Ltd.
+                    <br />
+                    Providing reliable tech since 1992
+                  </p>
+                </aside>
+                <nav>
+                  <h6 class="footer-title">Services</h6>
+                  <a class="link link-hover">Branding</a>
+                  <a class="link link-hover">Design</a>
+                  <a class="link link-hover">Marketing</a>
+                  <a class="link link-hover">Advertisement</a>
+                </nav>
+                <nav>
+                  <h6 class="footer-title">Company</h6>
+                  <a class="link link-hover">About us</a>
+                  <a class="link link-hover">Contact</a>
+                  <a class="link link-hover">Jobs</a>
+                  <a class="link link-hover">Press kit</a>
+                </nav>
+                <nav>
+                  <h6 class="footer-title">Legal</h6>
+                  <a class="link link-hover">Terms of use</a>
+                  <a class="link link-hover">Privacy policy</a>
+                  <a class="link link-hover">Cookie policy</a>
+                </nav>
+              </footer>
+        </footer>
+    </main>
+
+
 </body>
 </html>
